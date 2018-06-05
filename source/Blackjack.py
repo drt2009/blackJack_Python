@@ -5,8 +5,8 @@ class Blackjack():
     cards = []
 
     def __init__(self):
-        self.cards.append(Card(1,"Spades", "Ace"))
-        self.cards.append(Card(2,"Spades", "Two"))
+        self.cards.append(Card("Spades",(1, "Ace")))
+        self.cards.append(Card("Spades",(2, "Two")))
 
     def dealCard(self):
         return self.cards.pop()
